@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AngularEmailApp", "AngularEmailApp\AngularEmailApp.csproj", "{98E0236E-67B5-45AD-ABA3-E3F94AE1EAC1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmailService", "EmailService\EmailService.csproj", "{1C8E08BB-69EE-4DA1-AB97-2363E19AAF79}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmailWebAPI", "EmailWebAPI\EmailWebAPI.csproj", "{18A28A6D-3315-4B47-BF59-47534E71F626}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{98E0236E-67B5-45AD-ABA3-E3F94AE1EAC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98E0236E-67B5-45AD-ABA3-E3F94AE1EAC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98E0236E-67B5-45AD-ABA3-E3F94AE1EAC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98E0236E-67B5-45AD-ABA3-E3F94AE1EAC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C8E08BB-69EE-4DA1-AB97-2363E19AAF79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C8E08BB-69EE-4DA1-AB97-2363E19AAF79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C8E08BB-69EE-4DA1-AB97-2363E19AAF79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C8E08BB-69EE-4DA1-AB97-2363E19AAF79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18A28A6D-3315-4B47-BF59-47534E71F626}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18A28A6D-3315-4B47-BF59-47534E71F626}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18A28A6D-3315-4B47-BF59-47534E71F626}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18A28A6D-3315-4B47-BF59-47534E71F626}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" ng-app="app">
+<head>
+
+    <title></title>
+
+</head>
+<body ng-controller="Main">
+    <p>
+        <input type="text" ng-model="vm.ToEmail" placeholder="Enter email address of recipient" />
+    <p>
+    <p>
+        <input type="text" ng-model="vm.Subject" placeholder="Enter a subject" />
+    </p>
+    <p>
+        <textarea cols="20" rows="4" ng-model="vm.Message" placeholder="Enter a message" ></textarea>
+    </p>
+    <p>
+        {{vm.Message}}
+    </p>
+    <p>
+        <button type="button" ng-click="sendEmail()">Send</button>
+    </p>
+        <script src="Scripts/angular.min.js"></script>
+         <script src="app/app.module.js"></script>
+        <script src="app/EmailService.js"></script>
+        <script src="app/main.js"></script>
+
+</body>
+</html>
